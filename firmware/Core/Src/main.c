@@ -150,7 +150,7 @@ int main(void)
 
 	          trigger = Find_Trigger();
 
-	          if(trigger >= 0)
+	          //if(trigger >= 0)
 	          {
 	              Send_ADC_Buffer(trigger);
 	          }
