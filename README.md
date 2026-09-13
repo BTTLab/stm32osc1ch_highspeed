@@ -1,6 +1,6 @@
 # STM32 DIY Oscilloscope — 6 MSPS
 
-
+https://youtu.be/iQYehPCkm-g
 
 A DIY digital oscilloscope built around the STM32F207ZG and its three built-in ADCs.
 
