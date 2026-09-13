@@ -327,13 +327,13 @@ The current version does not attempt to solve this problem in hardware.
 ## Repository Structure
 
 ```text
-stm32osc6msps/
+stm32osc1ch_highspeed/
 ├── firmware/
 │   ├── Core/
 │   │   ├── Inc/
 │   │   └── Src/
 │   ├── Drivers/
-│   ├── *.ioc
+│   ├── OSCILLOSCOPE_HighSpeed.ioc
 │   └── ...
 │
 ├── software/
