@@ -4,9 +4,7 @@ https://youtu.be/iQYehPCkm-g
 
 A DIY digital oscilloscope built around the STM32F207ZG and its three built-in ADCs.
 
-This is the third version of the oscilloscope project. The previous version used all three ADCs in **Triple Regular Simultaneous Mode** to provide three independent channels at up to 2 MSPS per channel.
-
-This version takes a different approach: all three ADCs are used to sample the **same input signal** with precisely shifted sampling times. This is known as **Triple Interleaved Mode** and allows the three ADCs to effectively behave as a single ADC with a sampling rate of up to **6 MSPS**.
+This is part of YouTube video series. The previous version used all three ADCs in **Triple Regular Simultaneous Mode** to provide three independent channels at up to 2 MSPS per channel. This (third) version takes a different approach: all three ADCs are used to sample the **same input signal** with precisely shifted sampling times. This is known as **Triple Interleaved Mode** and allows the three ADCs to effectively behave as a single ADC with a sampling rate of up to **6 MSPS**.
 
 The project also introduces **FFT-based waveform reconstruction**, which can be used to produce a smoother and more visually useful representation of high-frequency signals.
 
