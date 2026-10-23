@@ -1,4 +1,4 @@
-# STM32 DIY Oscilloscope — 6 MSPS
+# STM32 DIY Oscilloscope - 6 MSPS
 
 https://youtu.be/iQYehPCkm-g
 
@@ -291,10 +291,10 @@ Although the theoretical Nyquist frequency is approximately **3 MHz**, this shou
 
 During testing:
 
-* Around **200 kHz** — waveform is reproduced very well
-* Around **600 kHz** — noticeable waveform distortion begins
-* Around **1 MHz** — waveform can still be made reasonably useful with FFT reconstruction
-* Above **1 MHz** — waveform shape becomes increasingly difficult to distinguish reliably
+* Around **200 kHz** - waveform is reproduced very well
+* Around **600 kHz** - noticeable waveform distortion begins
+* Around **1 MHz** - waveform can still be made reasonably useful with FFT reconstruction
+* Above **1 MHz** - waveform shape becomes increasingly difficult to distinguish reliably
 
 Therefore, approximately **1 MHz** is a more realistic upper limit for useful waveform display in this implementation.
 
@@ -454,11 +454,11 @@ The current project does not implement a sophisticated hardware trigger comparab
 
 This project is part of a series of experiments with the STM32F207's ADC peripherals.
 
-### Version 1 — Single Channel
+### Version 1 - Single Channel
 
 A single-channel oscilloscope using one ADC at up to 2 MSPS.
 
-### Version 2 — Three Channels
+### Version 2 - Three Channels
 
 Three ADCs used in **Triple Regular Simultaneous Mode**, providing:
 
@@ -470,7 +470,7 @@ See:
 
 https://github.com/BTTLab/stm32osc3ch
 
-### Version 3 — 6 MSPS Interleaved
+### Version 3 - 6 MSPS Interleaved
 
 Three ADCs are now combined using **Triple Interleaved Mode**:
 
